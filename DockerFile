@@ -1,0 +1,4 @@
+From open jdk-8
+EXPOSE 8080
+ADD target/Expense_Tracker.jar Expense_Tracker.jar
+ENTRYPOINT ["java","-jar","/Expense_Tracker.jar"]
